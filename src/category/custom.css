@@ -1,0 +1,88 @@
+/* Default Styles */
+.card-title {
+    font-size: 1.25rem;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+  }
+  
+  /* Media Query for tablets (screen widths from 768px to 991px) */
+  @media (max-width: 991px) {
+    .card-title {
+      font-size: 1.1rem;
+    }
+  
+    .card-text {
+      font-size: 0.9rem;
+    }
+  
+    .d-flex {
+      flex-direction: column; /* Stack the image and content vertically */
+    }
+  }
+  
+  /* Media Query for mobile (screen widths from 576px to 767px) */
+  @media (max-width: 767px) {
+    .col-md-4 {
+      width: 70%; /* Image will take full width of the container */
+      height: 150px; /* Smaller image height on mobile */
+    }
+  
+    .card-title {
+      font-size: 1rem; /* Smaller font size on mobile */
+    }
+  
+    .card-text {
+      font-size: 0.85rem; /* Smaller font size on mobile */
+    }
+  
+    .d-flex {
+      flex-direction: column; /* Stack the image and content vertically */
+    }
+  }
+  
+  /* Media Query for very small devices (portrait phones, less than 576px) */
+  @media (max-width: 575px) {
+    .card-title {
+      font-size: 0.9rem; /* Even smaller font size on very small devices */
+    }
+  
+    .card-text {
+      font-size: 0.8rem;
+    }
+  
+    .d-flex {
+      flex-direction: column; /* Ensure items stack vertically */
+    }
+  
+    .col-12.col-md-4 {
+      width: 100%; /* Force image to take full width */
+    }
+  }
+  
+
+
+  .pagination-controls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+  }
+  
+  @media (max-width: 576px) {
+    .pagination-controls {
+      flex-direction: row;
+    }
+  
+    .pagination-controls button {
+      width: 22%;
+      margin-bottom: 5px;
+    }
+    .i1
+    {
+      font-size: 10px;
+    }
+  }
+  
